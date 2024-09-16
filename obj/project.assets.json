@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan\\Documents\\MEGA\\Facultad Juan Pablo\\TDYCS - Segundo Año\\Desarrollo Back End\\repos\\TP1\\TP1.csproj",
+      "projectUniqueName": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\TP1.csproj",
       "projectName": "TP1",
-      "projectPath": "C:\\Users\\Juan\\Documents\\MEGA\\Facultad Juan Pablo\\TDYCS - Segundo Año\\Desarrollo Back End\\repos\\TP1\\TP1.csproj",
+      "projectPath": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\TP1.csproj",
       "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan\\Documents\\MEGA\\Facultad Juan Pablo\\TDYCS - Segundo Año\\Desarrollo Back End\\repos\\TP1\\obj\\",
+      "outputPath": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -21,12 +21,14 @@
         C = 3,
         D = 4,
         E = 5,
-        F = 6,
+        F = 6
     }
 
     public CalificacionConsumo Letra { get; set; }
 
-    public bool validarConsumoEnergetico(char letra)
+    public decimal Peso { get; set; }
+
+    public bool validarConsumoEnergetico(CalificacionConsumo letra)
     {
         if (letra <= 0 && letra >= 6)
         {
@@ -36,5 +38,37 @@
         {
             return true;
         }
+    }
+
+    public bool comprobarColor(Colores color)
+    {
+        if ((Colores)0 <= color <= (Colores)5)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+
+public class Lavadora : Electrodomestico
+{
+    public decimal Carga { get; set; }
+
+    Lavadora() { }
+    Lavadora(decimal precio, decimal peso)
+    {
+        PrecioBase = precio;
+        Peso = peso;
+    }
+
+    Lavadora(CalificacionConsumo letra, Colores color, decimal precio, decimal peso)
+    {
+        Letra = letra;
+        Color = color;
+        PrecioBase = precio;
+        Peso = peso;
     }
 }

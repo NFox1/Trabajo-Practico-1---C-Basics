@@ -12,31 +12,31 @@ public class Persona
     }
 
     public SexosNumerados Sexo { get; set; }
-    public decimal Peso { get; set; }
-    public decimal Altura { get; set; }
+    public double Peso { get; set; }
+    public double Altura { get; set; }
 
-    Persona() 
+    public Persona() 
     {
         Nombre = "";
         Edad = 0;
         DNI = 0;
-        Sexo = 0;
+        Sexo = SexosNumerados.SinDatos;
         Peso = 0;
         Altura = 0;
     }
 
-    Persona(string nombre, int edad, SexosNumerados sexo)
+    public Persona(string nombre, int edad, char sexo)
     {
         Nombre = nombre;
         Edad = edad;
-        Sexo = sexo;
+        Sexo = (SexosNumerados)sexo;
     }
 
-    Persona(string nombre, int edad, SexosNumerados sexo, decimal peso, decimal altura, int dni)
+    public Persona(string nombre, int edad, char sexo, double peso, double altura, int dni)
     {
         Nombre = nombre;
         Edad = edad;
-        Sexo = sexo;
+        Sexo = (SexosNumerados)sexo;
         Peso = peso;
         Altura = altura;
         DNI = dni;
@@ -44,7 +44,7 @@ public class Persona
 
     public int calcularIMC()
     {
-        decimal IMC = Peso / (Altura * Altura);
+        double IMC = Peso / (Altura * Altura);
         if (IMC < 20)
         {
             return -1;

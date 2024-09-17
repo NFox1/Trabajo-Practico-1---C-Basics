@@ -49,17 +49,17 @@ public class Lavadora : Electrodomestico
 {
     public decimal Carga { get; set; }
 
-    Lavadora()
+    public Lavadora()
     {
         Carga = 0;
     }
-    Lavadora(decimal precio, decimal peso)
+    public Lavadora(decimal precio, decimal peso)
     {
         PrecioBase = precio;
         Peso = peso;
     }
 
-    Lavadora(CalificacionConsumo letra, Colores color, decimal precio, decimal peso)
+    public Lavadora(CalificacionConsumo letra, Colores color, decimal precio, decimal peso)
     {
         Letra = letra;
         Color = color;

@@ -1,4 +1,6 @@
-﻿public abstract class Electrodomestico
+﻿using System.Drawing;
+
+public abstract class Electrodomestico
 {
     public decimal PrecioBase { get; set; }
     public enum Colores
@@ -15,7 +17,7 @@
 
     public enum CalificacionConsumo
     {
-        x = 0,
+        SinCalificacion = 0,
         A = 1,
         B = 2,
         C = 3,
@@ -28,28 +30,18 @@
 
     public decimal Peso { get; set; }
 
-    public bool validarConsumoEnergetico(CalificacionConsumo letra)
+    public bool validarConsumoEnergetico(char letra)
     {
-        if (letra <= 0 && letra >= 6)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        return Enum.IsDefined(typeof(CalificacionConsumo), (CalificacionConsumo)letra) && letra != (char)CalificacionConsumo.SinCalificacion;
     }
 
-    public bool comprobarColor(Colores color)
+    public bool comprobarColor(string color)
     {
-        if ((Colores)0 <= color <= (Colores)5)
+        if (Enum.TryParse<Colores>(color, out Colores colorParsed))
         {
-            return true;
+            return Enum.IsDefined(typeof(Colores), colorParsed) && colorParsed != Colores.NoEspecificado;
         }
-        else
-        {
-            return false;
-        }
+        return false;
     }
 }
 
@@ -57,7 +49,10 @@ public class Lavadora : Electrodomestico
 {
     public decimal Carga { get; set; }
 
-    Lavadora() { }
+    Lavadora()
+    {
+        Carga = 0;
+    }
     Lavadora(decimal precio, decimal peso)
     {
         PrecioBase = precio;

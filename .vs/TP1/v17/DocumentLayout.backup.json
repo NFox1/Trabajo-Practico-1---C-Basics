@@ -1,37 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\",
+  "WorkspaceRootPath": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\juan\\documents\\github\\trabajo-practico-1---c-basics\\programa\\programabancariocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\programabancariocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\testing\\unittestspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|solutionrelative:testing\\unittestspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\juan\\documents\\github\\trabajo-practico-1---c-basics\\programa\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\testing\\unittestselectrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|solutionrelative:testing\\unittestselectrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|c:\\users\\juan\\documents\\github\\trabajo-practico-1---c-basics\\testing\\unittestspersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609628A9-4E9C-421C-AF13-092C4C2A365E}|Testing\\Testing.csproj|solutionrelative:testing\\unittestspersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\programa\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\juan\\documents\\github\\trabajo-practico-1---c-basics\\programa\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\programa\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\juan\\documents\\github\\trabajo-practico-1---c-basics\\programa\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\programa\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|c:\\users\\sarmi\\documents\\github\\trabajo-practico-1---c-basics\\programa\\programabancariocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B303101-D748-4429-8FF8-E000C743CFEB}|Programa\\TP1.csproj|solutionrelative:programa\\programabancariocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Documents\\GitHub\\Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,104 +43,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Electrodomestico.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Electrodomestico.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Electrodomestico.cs",
               "RelativeDocumentMoniker": "Programa\\Electrodomestico.cs",
-              "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Electrodomestico.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Electrodomestico.cs",
               "RelativeToolTip": "Programa\\Electrodomestico.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAIwD0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwJkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T22:06:42.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Persona.cs",
-              "RelativeDocumentMoniker": "Programa\\Persona.cs",
-              "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Persona.cs",
-              "RelativeToolTip": "Programa\\Persona.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwDMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:52:44.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitTestsPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsPersonas.cs",
-              "RelativeDocumentMoniker": "Testing\\UnitTestsPersonas.cs",
-              "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsPersonas.cs",
-              "RelativeToolTip": "Testing\\UnitTestsPersonas.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAwwGMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UnitTestsPersona.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsPersona.cs",
+              "RelativeDocumentMoniker": "Testing\\UnitTestsPersona.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsPersona.cs",
+              "RelativeToolTip": "Testing\\UnitTestsPersona.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T22:05:33.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProgramaBancarioCuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\ProgramaBancarioCuenta.cs",
-              "RelativeDocumentMoniker": "Programa\\ProgramaBancarioCuenta.cs",
-              "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\ProgramaBancarioCuenta.cs",
-              "RelativeToolTip": "Programa\\ProgramaBancarioCuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UnitTestsElectrodomestico.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsElectrodomestico.cs",
+              "RelativeDocumentMoniker": "Testing\\UnitTestsElectrodomestico.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Testing\\UnitTestsElectrodomestico.cs",
+              "RelativeToolTip": "Testing\\UnitTestsElectrodomestico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T22:06:50.946Z",
+              "WhenOpened": "2024-09-19T07:33:35.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Cuenta.cs",
               "RelativeDocumentMoniker": "Programa\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Cuenta.cs",
               "RelativeToolTip": "Programa\\Cuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T22:06:31.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Persona.cs",
+              "RelativeDocumentMoniker": "Programa\\Persona.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\Persona.cs",
+              "RelativeToolTip": "Programa\\Persona.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswE4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T04:52:44.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ProgramaBancarioCuenta.cs",
+              "DocumentMoniker": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\ProgramaBancarioCuenta.cs",
+              "RelativeDocumentMoniker": "Programa\\ProgramaBancarioCuenta.cs",
+              "ToolTip": "C:\\Users\\sarmi\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Programa\\ProgramaBancarioCuenta.cs",
+              "RelativeToolTip": "Programa\\ProgramaBancarioCuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:06:50.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Tests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Tests\\UnitTest1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T21:20:03.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Electrodomestico.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs",
-              "RelativeDocumentMoniker": "Electrodomestico.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs",
               "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs",
-              "RelativeToolTip": "Electrodomestico.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Electrodomestico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T20:46:26.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs",
               "ToolTip": "C:\\Users\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Juan\\Documents\\GitHub\\Trabajo-Practico-1---C-Basics\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T20:45:23.385Z"

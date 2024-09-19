@@ -1,7 +1,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using static Persona;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Tests
+namespace TestsPersona
 {
     [TestClass()]
     public class UnitTest_validarSexo
@@ -100,6 +106,18 @@ namespace Tests
             Persona persona = new Persona("Enrique", 21, 'H', 80, 1.70, 4389321);
             int resultado = persona.calcularIMC();
             Assert.AreEqual(1, resultado);
+        }
+    }
+
+    [TestClass()]
+    public class UnitTest_toString
+    {
+        [TestMethod()]
+        public void toStringTest()
+        {
+            Persona persona = new Persona("Jorge", 30, 'H', 80, 1.85, 39548912);
+            string resultado = persona.toString();
+            Assert.AreEqual("\nEl nombre es: Jorge \nSu edad es: 30 años\nSu sexo es: Hombre \nSu peso es: 80 KG\nSu altura es: 1,85 M\nSu DNI es: 39548912", resultado);
         }
     }
 }

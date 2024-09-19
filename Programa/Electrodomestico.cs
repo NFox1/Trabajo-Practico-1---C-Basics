@@ -2,33 +2,33 @@
 
 public abstract class Electrodomestico
 {
-    public decimal PrecioBase { get; set; }
+    public double PrecioBase { get; set; }
     public enum Colores
     {
-        NoEspecificado = 0,
-        Blanco = 1,
-        Negro = 2,
-        Rojo = 3,
-        Azul = 4,
-        Verde = 5
+        noEspecificado,
+        blanco,
+        negro,
+        rojo,
+        azul,
+        verde
     }
 
     public Colores Color { get; set; }
 
     public enum CalificacionConsumo
     {
-        SinCalificacion = 0,
-        A = 1,
-        B = 2,
-        C = 3,
-        D = 4,
-        E = 5,
-        F = 6
+        SinCalificacion = 'x',
+        ExtremadamenteEficiente = 'A',
+        MuyEficiente = 'B',
+        Eficiente = 'C',
+        Media = 'D',
+        Deficiente = 'E',
+        MuyDeficiente = 'F'
     }
 
     public CalificacionConsumo Letra { get; set; }
 
-    public decimal Peso { get; set; }
+    public double Peso { get; set; }
 
     public bool validarConsumoEnergetico(char letra)
     {
@@ -39,31 +39,149 @@ public abstract class Electrodomestico
     {
         if (Enum.TryParse<Colores>(color, out Colores colorParsed))
         {
-            return Enum.IsDefined(typeof(Colores), colorParsed) && colorParsed != Colores.NoEspecificado;
+            return Enum.IsDefined(typeof(Colores), colorParsed) && colorParsed != Colores.noEspecificado;
         }
         return false;
+    }
+
+    public virtual double precioFinal()
+    {
+        return PrecioBase + precioSegunConsumo() + precioSegunPeso();
+    }
+
+    public int precioSegunConsumo()
+    {
+        if (Letra == (CalificacionConsumo.ExtremadamenteEficiente))
+        {
+            return 100;
+        }
+        else
+        {
+            if (Letra == (CalificacionConsumo.MuyEficiente))
+            {
+                return 80;
+            }
+            else
+            {
+                if (Letra == (CalificacionConsumo.Eficiente))
+                {
+                    return 60;
+                }
+                else
+                {
+                    if (Letra == (CalificacionConsumo.Media))
+                    {
+                        return 50;
+                    }
+                    else
+                    {
+                        if (Letra == (CalificacionConsumo.Deficiente))
+                        {
+                            return 30;
+                        }
+                        else
+                        {
+                            if (Letra == (CalificacionConsumo.MuyEficiente))
+                            {
+                                return 10;
+                            }
+                            else
+                            {
+                                return 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public int precioSegunPeso()
+    {
+        if (Peso < 20)
+        {
+            return 10;
+        }
+        else
+        {
+            if (Peso < 50)
+            {
+                return 50;
+            }
+            else
+            {
+                if (Peso < 80)
+                {
+                    return 80;
+                }
+                else
+                {
+                    return 100;
+                }
+            }
+        }
     }
 }
 
 public class Lavadora : Electrodomestico
 {
-    public decimal Carga { get; set; }
+    public double Carga { get; set; }
 
-    public Lavadora()
-    {
-        Carga = 0;
-    }
-    public Lavadora(decimal precio, decimal peso)
+    public Lavadora() { }
+    public Lavadora(double precio, double peso)
     {
         PrecioBase = precio;
         Peso = peso;
     }
 
-    public Lavadora(CalificacionConsumo letra, Colores color, decimal precio, decimal peso)
+    public Lavadora(double precio, double peso, double carga, char letra, string color)
     {
-        Letra = letra;
-        Color = color;
+        Letra = (CalificacionConsumo)letra;
+        Color = Enum.Parse<Colores>(color);
         PrecioBase = precio;
         Peso = peso;
+        Carga = carga;
+    }
+
+    public override double precioFinal()
+    {
+        double PrecioFinal = base.precioFinal();
+        if (Carga > 30)
+        {
+            PrecioFinal = PrecioFinal + 50;
+        }
+        return PrecioFinal;
+    }
+}
+
+public class Television : Electrodomestico
+{
+    public int Resolucion { get; set; }
+
+    public Television() { }
+    public Television(double precio, double peso, int resolucion = 0)
+    {
+        PrecioBase = precio;
+        Peso = peso;
+        Resolucion = resolucion;
+    }
+
+    public Television(double precio, double peso, int resolucion, char letra, string color)
+    {
+        Letra = (CalificacionConsumo)letra;
+        Color = Enum.Parse<Colores>(color);
+        PrecioBase = precio;
+        Peso = peso;
+        Resolucion = resolucion;
+    }
+
+    public override double precioFinal()
+    {
+        double PrecioFinal = base.precioFinal();
+        if (Resolucion > 40)
+        {
+            PrecioFinal = PrecioFinal + (PrecioFinal * 0.3);
+        }
+        return PrecioFinal;
     }
 }

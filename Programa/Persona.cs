@@ -18,11 +18,6 @@ public class Persona
     public Persona() 
     {
         Nombre = "";
-        Edad = 0;
-        DNI = 0;
-        Sexo = SexosNumerados.SinDatos;
-        Peso = 0;
-        Altura = 0;
     }
 
     public Persona(string nombre, int edad, char sexo)
@@ -77,5 +72,10 @@ public class Persona
     public static bool validarSexo (char sexo)
     {
         return Enum.IsDefined(typeof(SexosNumerados), (SexosNumerados)sexo) && sexo != (char)SexosNumerados.SinDatos;
+    }
+
+    public string toString()
+    {
+        return "\nEl nombre es: " + Nombre + " \nSu edad es: " + Edad + " años\nSu sexo es: " + Sexo + " \nSu peso es: " + Peso + " KG\nSu altura es: " + Altura + " M\nSu DNI es: " + DNI;
     }
 }
